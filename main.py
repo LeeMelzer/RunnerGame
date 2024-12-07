@@ -142,9 +142,6 @@ while True:
     if game_active:
         screen.blit(sky_surface,(0,0))
         screen.blit(ground_surface,(0,300))
-        # pygame.draw.rect(screen,'#c0e8ec',score_rect)
-        # pygame.draw.rect(screen,'#c0e8ec',score_rect,10)
-        # screen.blit(score_surface,score_rect)
         score = display_score()
         
         player_gravity += 1
